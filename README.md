@@ -1,2 +1,1 @@
-"my first readme" 
-"I chsnged my user name hopefully" 
+This is my portfolio site created mostly in JS. This repo contain the boilerplate of this site.
