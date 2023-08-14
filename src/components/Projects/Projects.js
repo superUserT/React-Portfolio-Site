@@ -25,9 +25,9 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Fuel Tracking"
-              description="This is a ongoing project which uses multiple api's to manage and store fuel data.This Projct is is built mainly using asp.net."
-              ghLink="https://github.com/theboydontplaygames/FuelTrackingApp"
+              title="Fuel Tracking Application"
+              description="This Project is is built mainly using asp.net."
+              ghLink="https://github.com/superUserT/FuelTrackingApplication"
               demoLink=""
             />
           </Col>
@@ -37,12 +37,44 @@ function Projects() {
               imgPath={bitsOfCode}
               isBlog={false}
               title="EDI FIle Manager"
-              description="My personal project that uses crud to control business edi files and export them to various formats, excel and pdf."
+              description="A project that uses crud to control business edi files and export them to various formats, excel and pdf."
               ghLink="https://github.com/theboydontplaygames/File-Manegment-System"
+              demoLink="https://showcase.sit.uct.ac.za/event/showcase-2021/freshgold-pallet-management-system"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={chatify}
+              isBlog={false}
+              title="Simple Shell Project"
+              description="A basic unix shell built in C"
+              ghLink="https://github.com/superUserT/simple_shell"
               demoLink=""
             />
           </Col>
 
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={bitsOfCode}
+              isBlog={false}
+              title="Print Function"
+              description="A basic printf function written in C"
+              ghLink="https://github.com/superUserT/printf"
+              demoLink=""
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={chatify}
+              isBlog={false}
+              title="Static Dashboard"
+              description="A static Dashboard built using HTML and CSS"
+              ghLink="https://github.com/superUserT/Dashboard"
+              demoLink="https://superusert.github.io/Dashboard/"
+            />
+          </Col>
 
         
         </Row>

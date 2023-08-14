@@ -94,7 +94,7 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="https://substack.com/profile/96323613-thabiso-rantsho?utm_source=%2Fbrowse&utm_medium=reader2-nav"
+                href="https://medium.com/@thabisojoerantsho"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -104,7 +104,7 @@ function NavBar() {
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/theboydontplaygames/Portfolio"
+                href="https://github.com/superUserT"
                 target="_blank"
                 className="fork-btn-inner"
               >
