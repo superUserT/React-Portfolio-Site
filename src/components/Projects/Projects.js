@@ -26,7 +26,7 @@ function Projects() {
               imgPath={chatify}
               isBlog={false}
               title="Fuel Tracking Application"
-              description="This Project is is built mainly using asp.net."
+              description="A fuel tracking application built using asp.net."
               ghLink="https://github.com/superUserT/FuelTrackingApplication"
               demoLink=""
             />
@@ -69,10 +69,19 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Static Dashboard"
-              description="A static Dashboard built using HTML and CSS"
-              ghLink="https://github.com/superUserT/Dashboard"
-              demoLink="https://superusert.github.io/Dashboard/"
+              title="Loan Application"
+              description="A web api that allows people to make loans."
+              ghLink="https://github.com/superUserT/loan_app"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={chatify}
+              isBlog={false}
+              title="AirBnB Clone"
+              description="A fullstack airbnb clone"
+              ghLink="https://github.com/superUserT/AirBnB_clone_v4"
             />
           </Col>
 
