@@ -308,6 +308,7 @@ button:focus {
 .myAvtar {
   justify-content: center !important;
   padding-top: 9em !important;
+  border-radius: 50%;
 }
 
 @media (max-width: 767px) {
@@ -502,6 +503,10 @@ button:focus {
   transform: scale(1.02) !important;
   overflow: hidden !important;
   box-shadow: 0 3px 3px 5px rgba(155, 88, 173, 0.65) !important;
+}
+
+img {
+  border-radius: 50%;
 }
 
 .card-img-top {
