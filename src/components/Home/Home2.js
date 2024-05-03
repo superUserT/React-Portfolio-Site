@@ -52,7 +52,7 @@ function Home2() {
               </i>
             </p>
           </Col>
-          <Col md={4} className="myAvtar">
+          <Col md={4}  className="myAvtar">
             <Tilt>
               <img src={myImg} className="img-fluid" alt="avatar" />
             </Tilt>
@@ -87,7 +87,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/thabisorantsho/"
+                  href="https://www.linkedin.com/in/thabiso-rantsho-34849b14a/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -97,7 +97,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/thabiso-rantsho-34849b14a/"
+                  href="https://www.instagram.com/asimov_in_necropolis"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
