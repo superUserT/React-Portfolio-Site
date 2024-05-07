@@ -19,22 +19,19 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              I love programming and enjoy learning and building things.
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> C#, C,Javascript Python. </b>
+                <b className="purple"> C#, C, JavaScript and Python. </b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              My fields of interest include:&nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Distributed Enterpirse Systems.
-                </b>
+                <b className="purple">Web Technologies, backend systems </b> and
+                areas related to{" "}
+                <b className="purple">Distributed Enterprise Systems.</b>
               </i>
               <br />
               <br />
@@ -43,7 +40,7 @@ function Home2() {
               <i>
                 <b className="purple">
                   {" "}
-                  Modern Javascript Library and Frameworks
+                  Modern JavaScript Libraries and Frameworks
                 </b>
               </i>
               &nbsp; like
@@ -52,7 +49,7 @@ function Home2() {
               </i>
             </p>
           </Col>
-          <Col md={4}  className="myAvtar">
+          <Col md={4} className="myAvatar">
             <Tilt>
               <img src={myImg} className="img-fluid" alt="avatar" />
             </Tilt>
@@ -70,7 +67,7 @@ function Home2() {
                   href="https://github.com/superUserT"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-color home-social-icons"
                 >
                   <AiFillGithub />
                 </a>
@@ -80,7 +77,7 @@ function Home2() {
                   href="https://twitter.com/theboydobtplay"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-color home-social-icons"
                 >
                   <AiOutlineTwitter />
                 </a>
@@ -90,7 +87,7 @@ function Home2() {
                   href="https://www.linkedin.com/in/thabiso-rantsho-34849b14a/"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-color home-social-icons"
                 >
                   <FaLinkedinIn />
                 </a>
@@ -100,7 +97,7 @@ function Home2() {
                   href="https://www.instagram.com/asimov_in_necropolis"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour home-social-icons"
+                  className="icon-color home-social-icons"
                 >
                   <AiFillInstagram />
                 </a>
