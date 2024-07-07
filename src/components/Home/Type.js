@@ -8,7 +8,7 @@ function Type() {
         strings: [
           "Developer",
           "Software Engineer",
-          "MERN Stack Developer",
+          "Data Engineer",
           "Aspiring Business Analyst",
         ],
         autoStart: true,

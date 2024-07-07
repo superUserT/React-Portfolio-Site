@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import profilePhoto from "../../Assets/profilePhoto.jpg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -19,8 +19,7 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              I love programming and enjoy learning and building things.
               <br />
               <br />I am fluent in classics like
               <i>
@@ -28,13 +27,11 @@ function Home2() {
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              My fields of interest include:&nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Distributed Enterpirse Systems.
-                </b>
+                <b className="purple">Web Technologies, backend systems </b> and
+                areas related to{" "}
+                <b className="purple">Distributed Enterpirse Systems.</b>
               </i>
               <br />
               <br />
@@ -54,7 +51,12 @@ function Home2() {
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img
+                src={profilePhoto}
+                style={{ borderRadius: "50%" }}
+                className="img-fluid"
+                alt="avatar"
+              />
             </Tilt>
           </Col>
         </Row>
@@ -87,7 +89,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/thabisorantsho/"
+                  href="https://www.linkedin.com/in/thabiso-rantsho-34849b14a/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -97,7 +99,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/iamnotarealperson_love"
+                  href="https://www.instagram.com/asimov_in_necropolis"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"

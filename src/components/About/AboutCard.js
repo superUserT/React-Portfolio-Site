@@ -10,17 +10,18 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Thabiso Rantsho </span>
             from <span className="purple"> Welkom, South Afrca.</span>
-            <br />I am an information systems major Software Engineering and Web Development.
+            <br />I am majoring in Software Engineering and Web Development with
+            a focus on information systems.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            Besides coding, there are other activities that I love to do:
           </p>
           <ul>
             <li className="about-activity">
               <ImPointRight /> Making Music
             </li>
             <li className="about-activity">
-              <ImPointRight /> Reading Philosophy 
+              <ImPointRight /> Reading Philosophy
             </li>
             <li className="about-activity">
               <ImPointRight /> Skateboarding
